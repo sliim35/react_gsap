@@ -5,10 +5,7 @@ import BottomBar from './BottomBar';
 import pig from '../svg/pig.svg';
 
 class CardBegin extends Component {
-  constructor(props) {
-    super(props);
-  }
-
+  
   render() {
     return (
       <div className="card">
