@@ -1,15 +1,12 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 
-import animation from '../animation';
-
 import BottomBar from './BottomBar';
 import pig from '../svg/pig.svg';
 
 class CardBegin extends Component {
   constructor(props) {
     super(props);
-    this.myRef = React.createRef();
   }
 
   render() {
